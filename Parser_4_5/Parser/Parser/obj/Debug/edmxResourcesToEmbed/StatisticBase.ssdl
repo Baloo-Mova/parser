@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище statisticModel" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.6" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="statistica">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="userid" Type="int" Nullable="false" />
+    <Property Name="data" Type="datetime" Precision="0" Nullable="false" />
+    <Property Name="countR" Type="int" Nullable="false" />
+    <Property Name="countS" Type="int" Nullable="false" />
+    <Property Name="countMail" Type="int" Nullable="false" />
+    <Property Name="countSkype" Type="int" Nullable="false" />
+    <Property Name="countICQ" Type="int" Nullable="false" />
+    <Property Name="request" Type="varchar" MaxLength="255" Nullable="false" />
+  </EntityType>
+  <EntityType Name="users">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="login" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="parol" Type="varchar" MaxLength="255" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="Хранилище statisticModelContainer">
+    <EntitySet Name="statistica" EntityType="Self.statistica" Schema="statistic" store:Type="Tables" />
+    <EntitySet Name="users" EntityType="Self.users" Schema="statistic" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

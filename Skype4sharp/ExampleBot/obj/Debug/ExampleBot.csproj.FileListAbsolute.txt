@@ -1,0 +1,9 @@
+F:\my\Work\ContactParser\Skype4sharp\ExampleBot\bin\Debug\ExampleBot.exe
+F:\my\Work\ContactParser\Skype4sharp\ExampleBot\bin\Debug\ExampleBot.pdb
+F:\my\Work\ContactParser\Skype4sharp\ExampleBot\bin\Debug\Newtonsoft.Json.dll
+F:\my\Work\ContactParser\Skype4sharp\ExampleBot\bin\Debug\Skype4Sharp.dll
+F:\my\Work\ContactParser\Skype4sharp\ExampleBot\bin\Debug\Skype4Sharp.pdb
+F:\my\Work\ContactParser\Skype4sharp\ExampleBot\bin\Debug\Newtonsoft.Json.xml
+F:\my\Work\ContactParser\Skype4sharp\ExampleBot\obj\Debug\ExampleBot.csprojResolveAssemblyReference.cache
+F:\my\Work\ContactParser\Skype4sharp\ExampleBot\obj\Debug\ExampleBot.exe
+F:\my\Work\ContactParser\Skype4sharp\ExampleBot\obj\Debug\ExampleBot.pdb

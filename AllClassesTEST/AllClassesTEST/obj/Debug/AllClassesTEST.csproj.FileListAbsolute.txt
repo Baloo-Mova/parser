@@ -1,0 +1,10 @@
+C:\my\Работа\ContactParser\AllClassesTEST\AllClassesTEST\bin\Debug\AllClassesTEST.exe.config
+C:\my\Работа\ContactParser\AllClassesTEST\AllClassesTEST\bin\Debug\AllClassesTEST.exe
+C:\my\Работа\ContactParser\AllClassesTEST\AllClassesTEST\bin\Debug\AllClassesTEST.pdb
+C:\my\Работа\ContactParser\AllClassesTEST\AllClassesTEST\obj\Debug\AllClassesTEST.csprojResolveAssemblyReference.cache
+C:\my\Работа\ContactParser\AllClassesTEST\AllClassesTEST\obj\Debug\AllClassesTEST.Form1.resources
+C:\my\Работа\ContactParser\AllClassesTEST\AllClassesTEST\obj\Debug\AllClassesTEST.Properties.Resources.resources
+C:\my\Работа\ContactParser\AllClassesTEST\AllClassesTEST\obj\Debug\AllClassesTEST.csproj.GenerateResource.Cache
+C:\my\Работа\ContactParser\AllClassesTEST\AllClassesTEST\obj\Debug\AllClassesTEST.exe
+C:\my\Работа\ContactParser\AllClassesTEST\AllClassesTEST\obj\Debug\AllClassesTEST.pdb
+C:\my\Работа\ContactParser\AllClassesTEST\AllClassesTEST\bin\Debug\MySql.Data.dll

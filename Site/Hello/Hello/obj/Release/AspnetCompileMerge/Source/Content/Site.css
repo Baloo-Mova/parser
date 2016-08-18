@@ -1,0 +1,77 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.parol{
+    margin-top:500px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+.col-lg-3 {
+    background: rgba(10, 10, 10, 0.5);
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+	border: 1px solid rgba(0, 0, 0, 0.05);
+	position: absolute;
+	margin-left: 37%;
+}
+video#bgvid {
+position: fixed; right: 0; bottom: 0;
+min-width: 100%; min-height: 100%;
+width: auto; height: auto; z-index: -100;
+background: url(/images/mountains2.png) no-repeat;
+background-size: cover;
+}
+.col-lg-3 {
+    background: rgba(10, 10, 10, 0.5);
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+	border: 1px solid rgba(0, 0, 0, 0.05);
+	position: absolute;
+	margin-left: 37%;
+}
+.font{
+   
+    background: rgba(200, 200, 200, 0.8);
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+	border: 1px solid rgba(0, 0, 0, 0.05);
+	height: 220px;
+	margin:0 auto;
+
+    width: 400px;
+}

@@ -1,0 +1,36 @@
+﻿@model Hello.Models.Users
+@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<div class="font" >
+  
+
+        @using (Html.BeginForm("Index", "Home", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+        {
+            <div class="form-group">
+                @Html.LabelFor(m => m.login, new { @class = "col-md-2 control-label" })
+                <div class="col-md-10">
+                    @Html.TextBoxFor(m => m.login, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.login)
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.parol, new { @class = "col-md-2 control-label" })
+                <div class="col-md-10">
+                    @Html.PasswordFor(m => m.parol, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.parol)
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-2">
+                    <input type="submit" value="Создать пользователя" class="btn btn-default" />
+                </div>
+            </div>
+            
+          
+
+        }
+
+</div>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище statisticModelContainer" CdmEntityContainer="statisticEntities">
+    <EntitySetMapping Name="statistica">
+      <EntityTypeMapping TypeName="statisticModel.statistica">
+        <MappingFragment StoreEntitySet="statistica">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="userid" ColumnName="userid" />
+          <ScalarProperty Name="data" ColumnName="data" />
+          <ScalarProperty Name="countR" ColumnName="countR" />
+          <ScalarProperty Name="countS" ColumnName="countS" />
+          <ScalarProperty Name="countMail" ColumnName="countMail" />
+          <ScalarProperty Name="countSkype" ColumnName="countSkype" />
+          <ScalarProperty Name="countICQ" ColumnName="countICQ" />
+          <ScalarProperty Name="request" ColumnName="request" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="users">
+      <EntityTypeMapping TypeName="statisticModel.users">
+        <MappingFragment StoreEntitySet="users">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="login" ColumnName="login" />
+          <ScalarProperty Name="parol" ColumnName="parol" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
